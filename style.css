@@ -85,6 +85,12 @@ h1 {
   color: gold;
   font-size: 48px;
   font-family: 'Playfair Display', serif;
+  text-shadow: 0 0 15px rgba(212, 175, 55, 0.5);
+}
+  h2 {
+  color: gold;
+  font-family: 'Playfair Display', serif;
+  text-shadow: 0 0 10px rgba(212, 175, 55, 0.3);
 }
 .hero h3 {
   color: white;
