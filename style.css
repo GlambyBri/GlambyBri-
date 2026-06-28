@@ -43,3 +43,22 @@ p {
 .button:hover {
   background: white;
 }
+/* About Section */
+
+.about {
+  background: #111;
+  padding: 80px 20px;
+}
+
+.about h2 {
+  color: gold;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about p {
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.8;
+  font-size: 20px;
+}
