@@ -154,3 +154,12 @@ p {
 .contact a:hover {
   color: white;
 }
+/* Footer */
+
+footer {
+    background: #111;
+    color: gold;
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+}
