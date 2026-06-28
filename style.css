@@ -8,7 +8,17 @@ body {
   color: white;
   text-align: center;
 }
+/* Announcement Bar */
 
+.announcement {
+    background: linear-gradient(90deg, #D4AF37, #F6E27A);
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: .5px;
+}
 /* Navigation */
 
 nav {
