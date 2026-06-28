@@ -150,7 +150,9 @@ p {
 
 .card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 0 20px rgba(255, 215, 0, 0.4);
+  background: #181818;
+  border-color: #F7D67A;
+  box-shadow: 0 0 20px rgba(255,215,0,.4);
 }
 /* Gallery */
 
@@ -179,10 +181,11 @@ p {
   border: 2px solid gold;
   transition: transform 0.3s ease;
 }
-
 .gallery-grid img:hover {
-  transform: scale(1.05);
+  transform: scale(1.08);
+  box-shadow: 0 15px 35px rgba(212,175,55,.45);
 }
+
 /* Contact */
 
 .contact {
@@ -215,4 +218,33 @@ footer {
     text-align: center;
     padding: 30px;
     margin-top: 50px;
+}
+.hero,
+.about,
+.services,
+.gallery,
+.contact {
+
+animation: fadeIn 1.2s ease;
+
+}
+
+@keyframes fadeIn {
+
+from {
+
+opacity:0;
+
+transform:translateY(40px);
+
+}
+
+to {
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
 }
