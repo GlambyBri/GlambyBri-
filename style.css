@@ -130,3 +130,24 @@ p {
 .gallery-grid img:hover {
   transform: scale(1.05);
 }
+/* Contact */
+
+.contact {
+  background: black;
+  padding: 80px 20px;
+}
+
+.contact h2 {
+  color: gold;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.contact a {
+  color: gold;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  color: white;
+}
