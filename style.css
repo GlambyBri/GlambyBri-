@@ -76,7 +76,13 @@ h1 {
   font-size: 48px;
   font-family: 'Playfair Display', serif;
 }
-
+.hero h3 {
+  color: white;
+  font-weight: 300;
+  font-size: 24px;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
 
 p {
   font-size: 20px;
