@@ -44,6 +44,13 @@ nav a{
 nav a:hover{
     color:gold;
 }
+.logo {
+  font-family: 'Playfair Display', serif;
+  color: gold;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
 header {
   background-color: black;
   color: gold;
