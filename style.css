@@ -88,7 +88,17 @@ background:#000;
 min-height:90vh;
 
 }
+.hero-left img{
 
+width:100%;
+
+border-radius:25px;
+
+border:3px solid gold;
+
+box-shadow:0 20px 40px rgba(212,175,55,.25);
+
+}
 h1 {
   color: gold;
   font-size: 48px;
