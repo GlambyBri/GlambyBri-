@@ -124,17 +124,21 @@ flex-direction:column;
 gap:20px;
 
 }
-.hero-right img {
+.hero-right img{
 
-    width: 100%;
+width:220px;
 
-    border: 3px solid gold;
+height:270px;
 
-    border-radius: 18px;
+object-fit:cover;
 
-    box-shadow: 0 10px 30px rgba(212,175,55,.35);
+border-radius:20px;
 
-    transition: .3s;
+border:3px solid gold;
+
+box-shadow:0 15px 35px rgba(212,175,55,.35);
+
+transition:.35s;
 
 }
 .hero-right img:nth-child(1) {
