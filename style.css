@@ -118,6 +118,8 @@ p {
   transition: .35s;
   box-shadow: 0 12px 35px rgba(212,175,55,.35);
   text-decoration: none;
+    font-size: 18px;
+padding: 18px 45px;
 }
 
 .button:hover{
@@ -339,6 +341,7 @@ p {
   border: 2px solid gold;
   border-radius: 12px;
   padding: 16px;
+    margin-bottom: 8px;
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
   transition: 0.3s ease;
@@ -363,10 +366,12 @@ p {
 }
 
 .booking button {
+  width: 100%;
   margin-top: 10px;
   cursor: pointer;
   border: none;
 }
+  
 
 .booking button:hover {
   transform: translateY(-3px);
