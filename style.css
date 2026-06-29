@@ -371,6 +371,13 @@ p {
 .booking button:hover {
   transform: translateY(-3px);
 }
+.booking label {
+  color: gold;
+  font-weight: 500;
+  text-align: left;
+  display: block;
+  margin-bottom: 8px;
+}
 /* Contact */
 
 .contact {
