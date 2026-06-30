@@ -295,7 +295,7 @@ border-color:#ff8bbd;
 
 .services {
   padding: 80px 20px;
-  background: black;
+  background: rgba(17,17,17,.85);
 }
 
 .services h2 {
@@ -338,7 +338,7 @@ border-color:#ff8bbd;
 /* Pricing */
 
 .pricing {
-  background: #000;
+  background: rgba(17,17,17,.85);
   padding: 80px 20px;
 }
 
@@ -391,7 +391,7 @@ border-color:#ff8bbd;
 /* Gallery */
 
 .gallery {
-  background: #111;
+  background: rgba(17,17,17,.85);
   padding: 80px 20px;
 }
 
