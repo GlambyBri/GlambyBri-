@@ -40,7 +40,7 @@ nav {
 nav ul{
     display:flex;
     list-style:none;
-    gap:30px;
+    gap:22px;
     margin:0;
     padding:0;
 }
@@ -168,8 +168,8 @@ transition:.35s;
 }
 .hero h1{
     font-family:'Playfair Display', serif;
-    font-size:90px;
-    line-height:.9;
+    font-size:78px;
+    line-height:.95;
     margin:15px 0;
 }
 
@@ -212,33 +212,28 @@ p {
 }
 
 .button{
+    display:inline-block;
+    padding:18px 55px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:600;
+    font-size:20px;
+    color:white;
 
-display:inline-block;
+    background:linear-gradient(135deg,#ff5d9e,#ff9cc8);
 
-padding:20px 55px;
+    box-shadow:
+    0 0 20px rgba(255,105,180,.4),
+    0 15px 40px rgba(255,105,180,.35);
 
-font-size:20px;
-
-font-weight:600;
-
-border-radius:50px;
-
-background:linear-gradient(135deg,#ff5f9d,#ff9cc8);
-
-color:#white;
-
-text-decoration:none;
-
-transition:.35s;
-
-box-shadow:0 15px 40px rgba(212,175,55,.45);
-
+    transition:.35s;
 }
+
 .button:hover{
-    transform:translateY(-5px) scale(1.05);
-    box-shadow:0 20px 45px rgba(212,175,55,.55);
+    transform:translateY(-5px);
+    box-shadow:
+    0 0 35px rgba(255,105,180,.7);
 }
-
 
 /* Why Choose Me */
 
