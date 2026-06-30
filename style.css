@@ -574,7 +574,7 @@ transform:translateY(0);
 }
 /* Mobile */
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
 
   nav {
     flex-direction: column;
@@ -665,5 +665,5 @@ pointer-events:none;
 
 .hero{
 position:relative;
-overflow:hidden;
+overflow:visible;
 }
