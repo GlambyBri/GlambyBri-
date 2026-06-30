@@ -67,13 +67,6 @@ nav a:hover{
     color:#ff78b3;
     font-style:italic;
 }
-header {
-  background-color: black;
-  color: gold;
-  padding: 25px;
-  font-size: 36px;
-  font-weight: bold;
-}
 
 .hero{
 
@@ -166,7 +159,7 @@ transition:.35s;
 }
 .hero h1{
     font-family:'Playfair Display', serif;
-    font-size:78px;
+    font-size:90px;
     line-height:.95;
     margin:15px 0;
 }
@@ -232,7 +225,9 @@ p {
     box-shadow:
     0 0 35px rgba(255,105,180,.7);
 }
-
+.button:active{
+transform:scale(.97);
+}
 /* Why Choose Me */
 
 .why-choose {
@@ -257,7 +252,7 @@ p {
 .why-card {
   background: #111;
   border: 2px solid gold;
-  border-radius: 15px;
+  border-radius: 20px;
   padding: 30px 20px;
   transition: .3s;
 }
@@ -321,7 +316,7 @@ border-color:#ff8bbd;
 .card {
   background: #111;
   border: 2px solid gold;
-  border-radius: 15px;
+  border-radius: 20px;
   padding: 30px 20px;
   min-height: 220px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -370,7 +365,7 @@ border-color:#ff8bbd;
 .price-card {
   background: #111;
   border: 2px solid gold;
-  border-radius: 15px;
+  border-radius: 20px;
   padding: 30px 20px;
   transition: .3s;
 }
@@ -466,7 +461,7 @@ border-color:#ff8bbd;
   color: white;
   border: 2px solid gold;
   border-radius: 12px;
-  padding: 16px;
+  padding: 18px;
     margin-bottom: 8px;
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
@@ -540,7 +535,7 @@ footer {
     background: #111;
     color: gold;
     text-align: center;
-    padding: 30px;
+    padding:40px 20px;
     margin-top: 50px;
 }
 .hero,
@@ -582,14 +577,14 @@ transform:translateY(0);
   }
 
   .logo{
-    font-size:26px;
+    font-size:30px;
     white-space:nowrap;
 }
 
   nav ul {
     flex-wrap: wrap;
     justify-content: center;
-    gap: 15px;
+    gap: 18px;
   }
 
   .hero {
@@ -677,5 +672,5 @@ pointer-events:none;
 
 .hero{
 position:relative;
-overflow:visible;
+overflow:hidden;
 }
