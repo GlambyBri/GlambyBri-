@@ -81,14 +81,9 @@ nav a:hover{
   align-items: center;
   gap: 40px;
   padding: 90px 8%;
-
-  background:
-    linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.65)),
-    url("images/cheetah.jpg");
-
-  background-size: cover;
-  background-position: center;
   min-height: 90vh;
+
+  background: rgba(0, 0, 0, 0.45);
 }
 .hero-left img {
     width: 100%;
@@ -230,7 +225,7 @@ transform:scale(.97);
 /* Why Choose Me */
 
 .why-choose {
-  background: #000;
+  background: rgba(0, 0, 0, 0.75);
   padding: 80px 20px;
 }
 
@@ -271,13 +266,13 @@ border-color:#ff8bbd;
 }
 /* About Section */
 
-.about{
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  gap:60px;
-  align-items:center;
-  padding:100px 8%;
-  background:#111;
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+  padding: 100px 8%;
+  background: rgba(17, 17, 17, 0.75);
 }
 
 .about-text{
@@ -295,7 +290,7 @@ border-color:#ff8bbd;
 
 .services {
   padding: 80px 20px;
-  background: rgba(17,17,17,.85);
+  background: rgba(17, 17, 17, 0.75);
 }
 
 .services h2 {
@@ -338,9 +333,10 @@ border-color:#ff8bbd;
 /* Pricing */
 
 .pricing {
-  background: rgba(17,17,17,.85);
+  background: rgba(17, 17, 17, 0.75);
   padding: 80px 20px;
 }
+
 
 .pricing h2 {
   color: gold;
@@ -391,10 +387,9 @@ border-color:#ff8bbd;
 /* Gallery */
 
 .gallery {
-  background: rgba(17,17,17,.85);
+  background: rgba(17, 17, 17, 0.75);
   padding: 80px 20px;
 }
-
 .gallery h2 {
   color: gold;
   font-size: 36px;
@@ -429,7 +424,7 @@ border-color:#ff8bbd;
 ========================= */
 
 .booking {
-  background: #111;
+  background: rgba(17, 17, 17, 0.75);
   padding: 90px 20px;
 }
 
@@ -506,7 +501,7 @@ border-color:#ff8bbd;
 /* Contact */
 
 .contact {
-  background: black;
+  background: rgba(0, 0, 0, 0.75);
   padding: 80px 20px;
 }
 
@@ -531,11 +526,11 @@ section {
 /* Footer */
 
 footer {
-    background: #111;
-    color: gold;
-    text-align: center;
-    padding:40px 20px;
-    margin-top: 50px;
+  background: rgba(17, 17, 17, 0.85);
+  color: gold;
+  text-align: center;
+  padding: 40px 20px;
+  margin-top: 50px;
 }
 .hero,
 .about,
