@@ -83,7 +83,13 @@ gap:40px;
 
 padding:90px 8%;
 
-background:#000;
+background:
+linear-gradient(rgba(0,0,0,.72),rgba(0,0,0,.72)),
+url("images/background.jpg");
+
+background-size:cover;
+
+background-position:center;
 
 min-height:90vh;
 
@@ -174,28 +180,46 @@ h1 {
   margin-top: -10px;
   margin-bottom: 20px;
 }
+.hero-text{
 
+max-width:420px;
+
+margin:25px auto;
+
+line-height:1.8;
+
+color:#ddd;
+
+}
 p {
   font-size: 20px;
   max-width: 600px;
   margin: 20px auto;
 }
 
-.button {
-  display: inline-block;
-  padding: 16px 42px;
-  border-radius: 50px;
-  background: linear-gradient(135deg,#D4AF37,#F6E27A);
-  color: black;
-  font-weight: 600;
-  letter-spacing: .5px;
-  transition: .35s;
-  box-shadow: 0 12px 35px rgba(212,175,55,.35);
-  text-decoration: none;
-    font-size: 18px;
-padding: 18px 45px;
-}
+.button{
 
+display:inline-block;
+
+padding:20px 55px;
+
+font-size:20px;
+
+font-weight:600;
+
+border-radius:50px;
+
+background:linear-gradient(135deg,#D4AF37,#F6E27A);
+
+color:#000;
+
+text-decoration:none;
+
+transition:.35s;
+
+box-shadow:0 15px 40px rgba(212,175,55,.45);
+
+}
 .button:hover{
     transform:translateY(-5px) scale(1.05);
     box-shadow:0 20px 45px rgba(212,175,55,.55);
