@@ -581,10 +581,10 @@ transform:translateY(0);
     padding: 15px;
   }
 
-  .logo {
-    font-size: 34px;
-    margin-bottom: 15px;
-  }
+  .logo{
+    font-size:26px;
+    white-space:nowrap;
+}
 
   nav ul {
     flex-wrap: wrap;
