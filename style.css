@@ -4,15 +4,8 @@ html {
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-
-  background:
-    linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.65)),
-    url("images/cheetah.jpg");
-
-  background-size: cover;
-  background-attachment: fixed;
-
-  color: white;
+  background: white;
+  color: #111;
   text-align: center;
 }
 /* Announcement Bar */
