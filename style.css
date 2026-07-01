@@ -61,6 +61,8 @@ nav a:hover{
     font-size:42px;
     font-weight:700;
     color:#D4AF37;
+   text-shadow:
+0 0 15px rgba(212,175,55,.45); 
 }
 
 .logo span{
@@ -213,9 +215,14 @@ p {
 }
 
 .button:hover{
-    transform:translateY(-5px);
-    box-shadow:
-    0 0 35px rgba(255,105,180,.7);
+
+transform:translateY(-5px) scale(1.04);
+
+box-shadow:
+0 0 35px rgba(255,105,180,.7),
+0 15px 40px rgba(212,175,55,.35);
+
+}
 }
 .button:active{
 transform:scale(.97);
@@ -333,6 +340,23 @@ transform:scale(.97);
   border:3px solid gold;
   box-shadow:0 20px 40px rgba(212,175,55,.35);
 }
+.about-photo img{
+
+animation:float 6s ease-in-out infinite;
+
+}
+
+@keyframes float{
+
+0%,100%{
+transform:translateY(0);
+}
+
+50%{
+transform:translateY(-12px);
+}
+
+}
 /* Services */
 
 .services {
@@ -372,13 +396,15 @@ transform:scale(.97);
   color: #444;
 }
 .card:hover{
-transform:translateY(-10px);
 
-box-shadow:
-0 0 20px rgba(255,105,180,.4),
-0 0 40px rgba(212,175,55,.25);
+transform:translateY(-12px);
 
 border-color:#ff8bbd;
+
+box-shadow:
+0 15px 35px rgba(212,175,55,.25),
+0 0 25px rgba(255,105,180,.3);
+
 }
 
 /* Pricing */
@@ -790,7 +816,43 @@ radial-gradient(circle,#d4af3750 1px,transparent 2px);
 background-size:180px 180px;
 pointer-events:none;
 }
+.hero::after{
 
+content:"";
+
+position:absolute;
+
+inset:0;
+
+background-image:
+radial-gradient(circle,#fff 1px,transparent 1px),
+radial-gradient(circle,#D4AF37 2px,transparent 2px);
+
+background-size:120px 120px,180px 180px;
+
+opacity:.25;
+
+animation:sparkle 18s linear infinite;
+
+pointer-events:none;
+
+}
+
+@keyframes sparkle{
+
+from{
+
+transform:translateY(0);
+
+}
+
+to{
+
+transform:translateY(-120px);
+
+}
+
+}
 .hero{
 position:relative;
 overflow:hidden;
