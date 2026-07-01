@@ -677,20 +677,7 @@ transform:translateY(0);
     margin: 30px auto 0;
     display: block;
 }
-    @media (max-width:768px){
-
-.gallery-grid{
-column-count:2;
-}
-
-}
-
-@media (max-width:500px){
-
-.gallery-grid{
-column-count:1;
-}
-.gallery-layout {
+    .gallery-layout {
     grid-template-columns: 1fr;
 }
 
