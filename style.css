@@ -795,3 +795,82 @@ pointer-events:none;
 position:relative;
 overflow:hidden;
 }
+/* =========================
+   PHONE
+========================= */
+
+@media (max-width:767px){
+
+nav{
+    padding:15px;
+}
+
+.logo{
+    font-size:26px;
+}
+
+nav ul{
+    gap:12px;
+    justify-content:center;
+}
+
+nav a{
+    font-size:15px;
+}
+
+.hero{
+    display:flex;
+    flex-direction:column;
+    padding:60px 20px;
+}
+
+.hero h1{
+    font-size:52px;
+}
+
+.hero h3{
+    font-size:22px;
+}
+
+.hero-left img,
+.hero-right img{
+    max-width:260px;
+}
+
+.about{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    gap:35px;
+}
+
+.about-text{
+    text-align:center;
+}
+
+.about-highlights{
+    grid-template-columns:1fr;
+}
+
+.about-photo img{
+    max-width:280px;
+}
+
+.gallery-layout{
+    grid-template-columns:1fr;
+}
+
+.gallery-right{
+    grid-template-columns:1fr;
+}
+
+.button{
+    width:100%;
+    max-width:300px;
+}
+
+p{
+    font-size:18px;
+}
+
+}
