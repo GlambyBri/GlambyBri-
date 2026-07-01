@@ -270,7 +270,12 @@ border-color:#ff8bbd;
   gap:60px;
   align-items:center;
   padding:100px 8%;
-  background:#111;
+  background:white;
+  color:#111;
+}
+
+.about p{
+  color:#444;
 }
 
 .about-text{
