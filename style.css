@@ -690,9 +690,15 @@ column-count:2;
 .gallery-grid{
 column-count:1;
 }
+.gallery-layout {
+    grid-template-columns: 1fr;
+}
 
+.gallery-right {
+    grid-template-columns: repeat(2, 1fr);
 }
 }
+
 .hero::before{
 content:"";
 position:absolute;
