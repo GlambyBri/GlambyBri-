@@ -293,7 +293,8 @@ border-color:#ff8bbd;
 
 .services {
   padding: 80px 20px;
-  background: rgba(17,17,17,.85);
+  background: white;
+  color: #111;
 }
 
 .services h2 {
@@ -311,7 +312,8 @@ border-color:#ff8bbd;
 }
 
 .card {
-  background: #111;
+  background: white;
+  color: #111;
   border: 2px solid gold;
   border-radius: 20px;
   padding: 30px 20px;
