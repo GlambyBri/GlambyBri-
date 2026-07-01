@@ -223,44 +223,59 @@ transform:scale(.97);
 /* Why Choose Me */
 
 .why-choose {
-  background: #000;
-  padding: 80px 20px;
+    background: #000;
+    padding: 100px 20px;
+    text-align: center;
 }
 
 .why-choose h2 {
-  color: gold;
-  font-size: 36px;
-  margin-bottom: 40px;
+    color: #D4AF37;
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.why-subtitle {
+    color: #ddd;
+    font-size: 18px;
+    margin-bottom: 50px;
 }
 
 .why-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 25px;
-  max-width: 1100px;
-  margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 25px;
+    max-width: 1100px;
+    margin: auto;
 }
 
 .why-card {
-  background: #111;
-  border: 2px solid gold;
-  border-radius: 20px;
-  padding: 30px 20px;
-  transition: .3s;
+    background: #111;
+    border: 2px solid rgba(212,175,55,.4);
+    border-radius: 20px;
+    padding: 35px 25px;
+    transition: .35s ease;
 }
 
-.why-card:hover{
-transform:translateY(-10px);
+.why-card:hover {
+    transform: translateY(-10px);
+    border-color: #D4AF37;
+    box-shadow: 0 0 25px rgba(212,175,55,.35);
+}
 
-box-shadow:
-0 0 20px rgba(255,105,180,.4),
-0 0 40px rgba(212,175,55,.25);
-
-border-color:#ff8bbd;
+.icon {
+    font-size: 40px;
+    margin-bottom: 15px;
 }
 
 .why-card h3 {
-  color: gold;
+    color: #D4AF37;
+    margin-bottom: 10px;
+}
+
+.why-card p {
+    color: #ddd;
+    font-size: 16px;
+    line-height: 1.6;
 }
 /* About Section */
 
