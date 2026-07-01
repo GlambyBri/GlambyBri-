@@ -665,7 +665,7 @@ transform:translateY(0);
 }
 /* Mobile */
 
-@media (max-width: 992px) {
+@media (min-width:768px) and (max-width:992px) {
 
   nav {
     flex-direction: column;
