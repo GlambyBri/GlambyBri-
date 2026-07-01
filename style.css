@@ -528,8 +528,13 @@ border-color:#ff8bbd;
 /* Contact */
 
 .contact {
-  background: black;
+  background: white;
+  color: #111;
   padding: 80px 20px;
+}
+
+.contact p {
+  color: #444;
 }
 
 .contact h2 {
