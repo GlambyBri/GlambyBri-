@@ -324,7 +324,9 @@ border-color:#ff8bbd;
 .card h3 {
   color: gold;
 }
-
+.card p {
+  color: #444;
+}
 .card:hover{
 transform:translateY(-10px);
 
