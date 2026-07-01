@@ -621,6 +621,41 @@ box-shadow:
   display: block;
   margin-bottom: 8px;
 }
+.faq{
+
+background:#111;
+
+padding:90px 20px;
+
+}
+
+.faq-item{
+
+max-width:700px;
+
+margin:25px auto;
+
+background:#1b1b1b;
+
+padding:25px;
+
+border-radius:20px;
+
+border:1px solid gold;
+
+}
+
+.faq-item h3{
+
+color:gold;
+
+}
+
+.faq-item p{
+
+color:#ddd;
+
+}
 /* Contact */
 
 .contact {
