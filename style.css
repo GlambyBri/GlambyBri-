@@ -182,6 +182,9 @@ transition:.35s;
   font-family: 'Playfair Display', serif;
   text-shadow: 0 0 10px rgba(212, 175, 55, 0.3);
 }
+h1, h2, h3 {
+  letter-spacing: 0.5px;
+}
 .hero h3 {
   color: white;
   font-weight: 300;
@@ -930,4 +933,7 @@ img:hover {
 
 .card:hover, .why-card:hover {
   transform: translateY(-10px);
+}
+section {
+  padding: 110px 20px;
 }
