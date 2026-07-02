@@ -206,7 +206,7 @@ p {
   margin: 20px auto;
 }
 
-.button{
+.button {
     display:inline-block;
     padding:18px 55px;
     border-radius:50px;
@@ -225,14 +225,14 @@ p {
 }
 
 .button:hover {
-  transform: translateY(-6px) scale(1.03);
-  box-shadow:
+    transform: translateY(-6px) scale(1.03);
+    box-shadow:
     0 0 40px rgba(255,105,180,.6),
     0 20px 50px rgba(212,175,55,.25);
 }
 
-.button:active{
-transform:scale(.97);
+.button:active {
+    transform: scale(.97);
 }
 /* Why Choose Me */
 
