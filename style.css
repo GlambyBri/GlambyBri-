@@ -924,3 +924,10 @@ img {
 img:hover {
   transform: scale(1.02);
 }
+.card, .why-card, .gallery-item img {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.card:hover, .why-card:hover {
+  transform: translateY(-10px);
+}
