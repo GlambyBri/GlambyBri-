@@ -88,7 +88,7 @@ nav a.active{
   grid-template-columns: 1.2fr 1fr .8fr;
   align-items: center;
   gap: 40px;
-  padding: 90px 8%;
+  padding: 140px 8% 90px;
 
   background:
     linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.65)),
@@ -839,6 +839,17 @@ nav ul.show{
 
 .about-highlights{
     grid-template-columns:1fr;
+}
+
+}
+@media (max-width:768px){
+
+.button{
+    display:block;
+    width:100%;
+    max-width:320px;
+    margin:20px auto;
+    box-sizing:border-box;
 }
 
 }
