@@ -964,3 +964,36 @@ section {
     width:22px;
     height:22px;
 }
+/* ===== MOBILE HAMBURGER MENU ===== */
+
+.menu-toggle {
+    display: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+    .menu-toggle {
+        display: block;
+    }
+
+    nav {
+        flex-wrap: wrap;
+    }
+
+    nav ul {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+        padding: 20px 0;
+        background: rgba(0,0,0,.95);
+    }
+
+    nav ul.show {
+        display: flex;
+    }
+}
