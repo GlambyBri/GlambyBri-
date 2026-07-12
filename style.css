@@ -976,12 +976,18 @@ section {
 @media (max-width: 768px) {
 
     .menu-toggle {
-        display: block;
-    }
+    display: block;
+    margin-left: auto;
+    font-size: 34px;
+    color: #D4AF37;
+}
 
     nav {
-        flex-wrap: wrap;
-    }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
     nav ul {
         display: none;
