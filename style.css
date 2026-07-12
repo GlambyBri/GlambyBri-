@@ -853,3 +853,59 @@ nav ul.show{
 }
 
 }
+/* ===== FINAL MOBILE FIXES ===== */
+
+.hero{
+    position: relative;
+}
+
+@media (max-width:768px){
+
+.hero{
+    padding-top: 40px;
+    min-height: auto;
+}
+
+.hero-left,
+.hero-right{
+    display:none;
+}
+
+.hero-center{
+    width:100%;
+    max-width:500px;
+    margin:auto;
+}
+
+.hero h1{
+    font-size:52px;
+    line-height:1.1;
+}
+
+.hero h3{
+    font-size:20px;
+    line-height:1.5;
+}
+
+.hero-text{
+    font-size:18px;
+    line-height:1.8;
+}
+
+.button,
+.instagram-btn{
+    width:100%;
+    max-width:320px;
+    margin:18px auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    box-sizing:border-box;
+}
+
+.social-buttons{
+    display:flex;
+    justify-content:center;
+}
+
+}
