@@ -862,13 +862,14 @@ nav ul.show{
 @media (max-width:768px){
 
 .hero{
-    padding-top: 40px;
+    padding:70px 20px;
     min-height: auto;
 }
 
 .hero-left,
 .hero-right{
-    display:none;
+    display:flex;
+    justify-content:center;
 }
 
 .hero-center{
