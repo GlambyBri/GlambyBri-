@@ -1076,3 +1076,54 @@ transform:translateY(0);
     color: #ddd;
     line-height: 1.8;
 }
+/* SERVICES PAGE */
+
+.card{
+    background:#fff;
+    border-radius:20px;
+    padding:35px;
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+    transition:.3s;
+    text-align:left;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 45px rgba(0,0,0,.15);
+}
+
+.card h3{
+    color:#d4af37;
+    margin-bottom:15px;
+}
+
+.card p{
+    color:#555;
+    line-height:1.7;
+}
+
+.card .button{
+    width:100%;
+    text-align:center;
+    margin-top:20px;
+}
+
+.service-note{
+    width:85%;
+    margin:70px auto;
+    background:#faf7f2;
+    padding:50px;
+    border-radius:20px;
+}
+
+.service-note h2{
+    color:#d4af37;
+    margin-bottom:20px;
+}
+
+.service-note p{
+    max-width:700px;
+    margin:auto;
+    color:#555;
+    line-height:1.8;
+}
