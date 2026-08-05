@@ -1177,3 +1177,29 @@ transform:translateY(0);
     margin-bottom:12px;
     color:#555;
 }
+.steps{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin:50px 0;
+    flex-wrap:wrap;
+}
+
+.steps div{
+    background:white;
+    width:220px;
+    padding:25px;
+    border-radius:18px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.steps span{
+    font-size:2rem;
+    display:block;
+    margin-bottom:15px;
+}
+
+.steps p{
+    color:#555;
+    line-height:1.6;
+}
