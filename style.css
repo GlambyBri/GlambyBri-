@@ -1,12 +1,12 @@
 html {
     scroll-behavior: smooth;
 }
-body {
-  margin: 0;
-  font-family: 'Poppins', sans-serif;
-  background: white;
-  color: white;
-  text-align: center;
+body{
+    margin:0;
+    font-family:'Poppins',sans-serif;
+    background:#fff;
+    color:#222;
+    text-align:center;
 }
 /* Announcement Bar */
 
