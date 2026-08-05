@@ -58,18 +58,30 @@
     <input type="email" name="email" placeholder="Email Address" required>
 
     <select name="service" required>
-      <option value="">Select a Service</option>
-      <option>Silk Press</option>
-      <option>Blowout</option>
-      <option>Shampoo & Style</option>
-      <option>Deep Conditioning</option>
-      <option>Ponytail</option>
-      <option>Nails</option>
-    </select>
+
+<option value="">Choose Your Service</option>
+
+<optgroup label="Hair Services">
+<option>Silk Press</option>
+<option>Blowout</option>
+<option>Shampoo & Style</option>
+<option>Deep Conditioning</option>
+<option>Ponytail</option>
+</optgroup>
+
+<optgroup label="Nail Services">
+<option>Basic Manicure</option>
+<option>Gel Manicure</option>
+<option>Custom Nail Set</option>
+</optgroup>
+
+</select>
 
     <label>Preferred Date</label>
     <input type="date" name="date">
+<label>Preferred Time</label>
 
+<input type="time" name="time">
     <label>Message</label>
     <textarea name="message" rows="5" placeholder="Tell me what you're looking for..."></textarea>
 
