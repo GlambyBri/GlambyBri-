@@ -1297,3 +1297,71 @@ a {
     }
 
 }
+/* ABOUT PAGE MOBILE FIX */
+@media (max-width: 768px) {
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 100%;
+        padding: 60px 20px;
+        gap: 40px;
+        overflow: hidden;
+    }
+
+    .about-text {
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .about-text h1,
+    .about-text h2,
+    .about-text h3,
+    .about-text p {
+        max-width: 100%;
+        overflow-wrap: break-word;
+    }
+
+    .about-highlights {
+        width: 100%;
+        max-width: 100%;
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .about-highlights div {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .about-photo {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .about-photo img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        box-sizing: border-box;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .about {
+        padding: 50px 16px;
+    }
+
+    .about-photo img {
+        max-width: 100%;
+    }
+
+    .about-highlights {
+        grid-template-columns: 1fr;
+    }
+
+}
