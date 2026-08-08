@@ -1997,3 +1997,11 @@ max-width:320px;
     }
 
 }
+/* SERVICE PRICES */
+
+.service-grid .card .price{
+    color:#F47CB8;
+    font-weight:700;
+    font-size:21px;
+    margin-top:22px;
+}
