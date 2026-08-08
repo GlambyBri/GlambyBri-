@@ -3,121 +3,369 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Book Appointment | Glam by Bri</title>
+
+  <meta name="description"
+        content="Book your next hair or nail appointment with Glam by Bri.">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
 <!-- ANNOUNCEMENT -->
 <div class="announcement">
   ✨ Now Accepting New Clients • Book Your Appointment Today ✨
 </div>
-<!-- NAV -->
+
+
 <!-- NAV -->
 <nav>
-  <div class="logo">
+
+  <a href="index.html" class="logo">
     <span>Glam</span> by Bri
-  </div>
+  </a>
 
   <div class="menu-toggle" id="menu-toggle">
     ☰
   </div>
 
   <ul id="nav-links">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="about.html">About</a></li>
-   <li><a href="services.html">Services</a></li>
-    <li><a href="gallery.html">Gallery</a></li>
-    <li><a class="active" href="booking.html">Book</a></li>
-    <li><a href="contact.html">Contact</a></li>
+
+    <li>
+      <a href="index.html">Home</a>
+    </li>
+
+    <li>
+      <a href="about.html">About</a>
+    </li>
+
+    <li>
+      <a href="services.html">Services</a>
+    </li>
+
+    <li>
+      <a href="gallery.html">Gallery</a>
+    </li>
+
+    <li>
+      <a class="active" href="booking.html">Book</a>
+    </li>
+
+    <li>
+      <a href="contact.html">Contact</a>
+    </li>
+
   </ul>
+
 </nav>
 
-<!-- HEADER -->
-<section class="booking">
 
-  <h2>Book Your Appointment</h2>
+<!-- BOOKING HEADER -->
+<section class="booking-page">
 
-  <p>
-    Please fill out the form below and I’ll contact you to confirm your appointment.
-  </p>
+  <div class="booking-intro">
 
-  <form action="https://formspree.io/f/xjgqovyw" method="POST">
-    
-<input type="hidden" name="_next" value="https//glambybri.github.io/GlambyBri-/thank-you.html">
-  
-    <input type="text" name="name" placeholder="Full Name" required>
+    <p class="booking-eyebrow">
+      GLAM BY BRI
+    </p>
 
-    <input type="tel" name="phone" placeholder="Phone Number" required>
+    <h1>
+      Let’s Get You Glam ✨
+    </h1>
 
-    <input type="email" name="email" placeholder="Email Address" required>
+    <p>
+      Ready for your next beauty appointment?
+      Fill out the request form below and I’ll get back to you
+      to confirm your appointment.
+    </p>
 
-    <select name="service" required>
+  </div>
 
-<option value="">Choose Your Service</option>
 
-<optgroup label="Hair Services">
-<option>Silk Press</option>
-<option>Blowout</option>
-<option>Shampoo & Style</option>
-<option>Deep Conditioning</option>
-<option>Ponytail</option>
-</optgroup>
+  <!-- BOOKING CARD -->
+  <div class="booking-card">
 
-<optgroup label="Nail Services">
-<option>Basic Manicure</option>
-<option>Gel Manicure</option>
-<option>Custom Nail Set</option>
-</optgroup>
+    <form action="https://formspree.io/f/xjgqovyw"
+          method="POST">
 
-</select>
+      <!-- REDIRECT AFTER SUBMISSION -->
+      <input
+        type="hidden"
+        name="_next"
+        value="https://glambybri.github.io/GlambyBri-/thank-you.html">
 
-    <label>Preferred Date</label>
-    <input type="date" name="date" required>
-<label>Preferred Time</label>
 
-<input type="time" name="time" required>
-    <label>Special Requests</label>
-    <textarea
-name="message"
-rows="5"
-placeholder="Hair inspiration, nail design ideas, preferred colors, allergies, or anything you'd like me to know.">
-</textarea>
+      <!-- CONTACT INFORMATION -->
+      <div class="form-section">
 
-    <button type="submit" class="button">Request Appointment</button>
+        <h2>✨ Your Information</h2>
 
-  </form>
+        <div class="form-group">
 
-</div>
-<section class="booking-info">
+          <label for="name">
+            Full Name
+          </label>
 
-<h3>Before Your Appointment</h3>
+          <input
+            id="name"
+            type="text"
+            name="name"
+            placeholder="Enter your full name"
+            required>
 
-<ul>
+        </div>
 
-<li>✔ Please arrive on time.</li>
 
-<li>✔ If you need to cancel, please give at least 24 hours' notice.</li>
+        <div class="form-group">
 
-<li>✔ Appointment requests will be confirmed by phone or email.</li>
+          <label for="phone">
+            Phone Number
+          </label>
 
-<li>✔ Prices may vary depending on hair length, thickness, or design complexity.</li>
+          <input
+            id="phone"
+            type="tel"
+            name="phone"
+            placeholder="(555) 555-5555"
+            required>
 
-</ul>
+        </div>
+
+
+        <div class="form-group">
+
+          <label for="email">
+            Email Address
+          </label>
+
+          <input
+            id="email"
+            type="email"
+            name="email"
+            placeholder="you@example.com"
+            required>
+
+        </div>
+
+      </div>
+
+
+      <!-- SERVICE -->
+      <div class="form-section">
+
+        <h2>💅 Choose Your Service</h2>
+
+        <div class="form-group">
+
+          <label for="service">
+            What would you like to book?
+          </label>
+
+          <select
+            id="service"
+            name="service"
+            required>
+
+            <option value="">
+              Select a service
+            </option>
+
+            <optgroup label="Hair Services">
+
+              <option>
+                Silk Press
+              </option>
+
+              <option>
+                Blowout
+              </option>
+
+              <option>
+                Shampoo & Style
+              </option>
+
+              <option>
+                Deep Conditioning
+              </option>
+
+              <option>
+                Ponytail
+              </option>
+
+            </optgroup>
+
+
+            <optgroup label="Nail Services">
+
+              <option>
+                Basic Manicure
+              </option>
+
+              <option>
+                Gel Manicure
+              </option>
+
+              <option>
+                Custom Nail Set
+              </option>
+
+            </optgroup>
+
+          </select>
+
+        </div>
+
+      </div>
+
+
+      <!-- DATE & TIME -->
+      <div class="form-section">
+
+        <h2>📅 Preferred Appointment</h2>
+
+        <div class="date-time-grid">
+
+          <div class="form-group">
+
+            <label for="date">
+              Preferred Date
+            </label>
+
+            <input
+              id="date"
+              type="date"
+              name="date"
+              required>
+
+          </div>
+
+
+          <div class="form-group">
+
+            <label for="time">
+              Preferred Time
+            </label>
+
+            <input
+              id="time"
+              type="time"
+              name="time"
+              required>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- SPECIAL REQUESTS -->
+      <div class="form-section">
+
+        <h2>💛 Tell Me More</h2>
+
+        <div class="form-group">
+
+          <label for="message">
+            Special Requests
+          </label>
+
+          <textarea
+            id="message"
+            name="message"
+            rows="6"
+            placeholder="Tell me about your hair goals, nail design ideas, preferred colors, or anything else you'd like me to know."></textarea>
+
+        </div>
+
+      </div>
+
+
+      <!-- CONFIRMATION NOTICE -->
+      <div class="booking-notice">
+
+        <strong>
+          ✨ Please Note
+        </strong>
+
+        <p>
+          This form sends an appointment request.
+          Your appointment is not confirmed until you receive
+          a confirmation from Glam by Bri.
+        </p>
+
+      </div>
+
+
+      <!-- SUBMIT -->
+      <button
+        type="submit"
+        class="button booking-submit">
+
+        Request My Appointment ✨
+
+      </button>
+
+    </form>
+
+  </div>
+
+
+  <!-- BEFORE APPOINTMENT -->
+  <div class="booking-info">
+
+    <h2>
+      Before Your Appointment
+    </h2>
+
+    <div class="booking-rules">
+
+      <div>
+        <span>✓</span>
+        <p>Please arrive on time for your appointment.</p>
+      </div>
+
+      <div>
+        <span>✓</span>
+        <p>Please provide at least 24 hours' notice if you need to cancel.</p>
+      </div>
+
+      <div>
+        <span>✓</span>
+        <p>Appointment requests must be confirmed by phone or email.</p>
+      </div>
+
+      <div>
+        <span>✓</span>
+        <p>Prices may vary depending on hair length, thickness, or design complexity.</p>
+      </div>
+
+    </div>
+
+  </div>
 
 </section>
-</section>
+
 
 <!-- FOOTER -->
 <footer>
-  <p>© 2026 Glam by Bri 💛</p>
+
+  <p>
+    © 2026 Glam by Bri • All Rights Reserved 💛
+  </p>
+
 </footer>
+
+
 <script src="script.js"></script>
+
 </body>
 </html>
