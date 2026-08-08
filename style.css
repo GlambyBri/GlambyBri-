@@ -1145,3 +1145,83 @@ max-width:320px;
         box-sizing: border-box !important;
     }
 }
+/* =========================
+   INSTAGRAM BUTTON
+========================= */
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.instagram-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    width: auto !important;
+    max-width: none !important;
+
+    padding: 12px 22px;
+    margin: 10px auto !important;
+
+    border-radius: 50px;
+
+    background: linear-gradient(
+        135deg,
+        #feda75,
+        #fa7e1e,
+        #d62976,
+        #962fbf,
+        #4f5bd5
+    );
+
+    color: white !important;
+    text-decoration: none;
+
+    font-size: 15px;
+    font-weight: 600;
+
+    box-shadow: 0 8px 20px rgba(214, 41, 118, .25);
+
+    transition: .3s ease;
+}
+
+.instagram-icon {
+    width: 22px !important;
+    height: 22px !important;
+
+    min-width: 22px;
+    max-width: 22px;
+
+    flex-shrink: 0;
+}
+
+.instagram-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px rgba(214, 41, 118, .35);
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+    .social-buttons {
+        margin-top: 15px;
+    }
+
+    .instagram-btn {
+        width: auto !important;
+        max-width: 260px !important;
+        padding: 11px 20px;
+        font-size: 14px;
+    }
+
+    .instagram-icon {
+        width: 20px !important;
+        height: 20px !important;
+        min-width: 20px;
+        max-width: 20px;
+    }
+}
