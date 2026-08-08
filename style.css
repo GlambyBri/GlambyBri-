@@ -1226,5 +1226,5 @@ max-width:320px;
     }
 }
 .logo {
-    font-family: 'Playfair Display', serif !important;
+    text-transform: none !important;
 }
