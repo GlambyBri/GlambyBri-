@@ -1719,3 +1719,281 @@ max-width:320px;
   }
 
 }
+/* =====================================================
+   SERVICES PAGE - NEW DESIGN
+===================================================== */
+
+.services{
+    background:#fff;
+    text-align:center;
+    padding:90px 8%;
+}
+
+
+/* INTRO */
+
+.services-eyebrow{
+    color:#D4AF37;
+    font-size:13px;
+    font-weight:600;
+    letter-spacing:4px;
+    margin:0 0 10px;
+}
+
+.services > h2{
+    margin-bottom:15px;
+}
+
+.services-intro{
+    max-width:680px;
+    margin:0 auto;
+    color:#555;
+    font-size:18px;
+    line-height:1.8;
+}
+
+
+/* SERVICE SECTIONS */
+
+.service-section{
+    max-width:1100px;
+    margin:75px auto 0;
+}
+
+.service-category{
+    font-family:'Playfair Display',serif;
+    color:#111;
+    font-size:36px;
+    margin-bottom:35px;
+}
+
+
+/* SERVICE GRID */
+
+.service-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+}
+
+
+/* SERVICE CARDS */
+
+.service-grid .card{
+    background:#faf7f2;
+    border:2px solid #D4AF37;
+    border-radius:22px;
+    padding:35px 28px;
+
+    min-height:330px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+
+    text-align:center;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.07);
+
+    transition:.35s ease;
+}
+
+.service-grid .card:hover{
+    transform:translateY(-8px);
+    border-color:#F47CB8;
+
+    box-shadow:
+    0 18px 40px rgba(212,175,55,.20);
+}
+
+
+/* CARD TITLE */
+
+.service-grid .card h3{
+    color:#D4AF37;
+    font-family:'Playfair Display',serif;
+    font-size:27px;
+    margin-bottom:18px;
+}
+
+
+/* CARD TEXT */
+
+.service-grid .card p{
+    color:#555;
+    font-size:16px;
+    line-height:1.7;
+    margin:0;
+}
+
+
+/* CARD BUTTON */
+
+.service-grid .card .button{
+    display:block;
+    width:100%;
+    margin-top:30px;
+    padding:15px 20px;
+    font-size:15px;
+}
+
+
+/* SERVICE NOTE */
+
+.service-note{
+    max-width:750px;
+    margin:75px auto 0;
+
+    padding:25px 30px;
+
+    background:#faf7f2;
+
+    border-left:4px solid #D4AF37;
+
+    border-radius:12px;
+
+    text-align:left;
+}
+
+.service-note p{
+    color:#666;
+    font-size:14px;
+    line-height:1.7;
+    margin:0;
+}
+
+
+/* FINAL CTA */
+
+.services-cta{
+    margin:90px auto 0;
+
+    max-width:800px;
+
+    padding:55px 30px;
+
+    background:
+    linear-gradient(
+        135deg,
+        #111,
+        #222
+    );
+
+    border-radius:25px;
+
+    box-shadow:0 20px 45px rgba(0,0,0,.15);
+}
+
+.services-cta h3{
+    color:white;
+    font-family:'Playfair Display',serif;
+    font-size:38px;
+    margin-bottom:12px;
+}
+
+.services-cta p{
+    color:#ddd;
+    margin-bottom:30px;
+}
+
+
+/* =====================================================
+   SERVICES - TABLET
+===================================================== */
+
+@media (max-width:992px){
+
+    .service-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+}
+
+
+/* =====================================================
+   SERVICES - MOBILE
+===================================================== */
+
+@media (max-width:768px){
+
+    .services{
+        padding:70px 20px;
+    }
+
+    .services-intro{
+        font-size:16px;
+        line-height:1.7;
+    }
+
+    .service-section{
+        margin-top:60px;
+    }
+
+    .service-category{
+        font-size:32px;
+        margin-bottom:25px;
+    }
+
+    .service-grid{
+        grid-template-columns:1fr;
+        gap:20px;
+    }
+
+    .service-grid .card{
+        min-height:auto;
+        padding:30px 22px;
+    }
+
+    .service-grid .card h3{
+        font-size:25px;
+    }
+
+    .service-grid .card p{
+        font-size:15px;
+    }
+
+    .service-note{
+        margin-top:55px;
+        padding:22px;
+    }
+
+    .services-cta{
+        margin-top:65px;
+        padding:45px 20px;
+    }
+
+    .services-cta h3{
+        font-size:32px;
+    }
+
+    .services-cta p{
+        font-size:16px;
+    }
+
+    .services-cta .button{
+        width:100%;
+        max-width:320px;
+    }
+
+}
+
+
+/* =====================================================
+   SERVICES - SMALL PHONES
+===================================================== */
+
+@media (max-width:480px){
+
+    .services{
+        padding:55px 16px;
+    }
+
+    .service-category{
+        font-size:29px;
+    }
+
+    .services-cta h3{
+        font-size:29px;
+    }
+
+}
